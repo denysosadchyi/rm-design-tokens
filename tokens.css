@@ -1,0 +1,177 @@
+/* ============================================================
+   SEMANTIC TOKENS — Records Marine Design System
+   Auto-generated from Figma Variables (Tokens collection)
+   Depends on: primitives.css
+   ============================================================ */
+
+:root {
+
+  /* Global / BG */
+  --color-bg-page: var(--color-gray-blue-50);
+  --color-bg-default: var(--color-white);
+  --color-bg-subtle: var(--color-gray-blue-100);
+  --color-bg-muted: var(--color-gray-blue-200);
+  --color-bg-inverse: var(--color-gray-blue-900);
+  --color-bg-overlay: var(--color-gray-blue-800);
+  --color-bg-brand: var(--color-blue-500);
+  --color-bg-brand-subtle: var(--color-blue-50);
+
+  /* Global / Text */
+  --color-text-primary: var(--color-gray-text-800);
+  --color-text-secondary: var(--color-gray-text-600);
+  --color-text-tertiary: var(--color-gray-text-400);
+  --color-text-disabled: var(--color-gray-text-300);
+  --color-text-inverse: var(--color-white);
+  --color-text-brand: var(--color-blue-500);
+  --color-text-on-brand: var(--color-white);
+
+  /* Global / Icon */
+  --color-icon-primary: var(--color-gray-text-800);
+  --color-icon-secondary: var(--color-gray-text-400);
+  --color-icon-disabled: var(--color-gray-text-300);
+  --color-icon-inverse: var(--color-white);
+  --color-icon-brand: var(--color-blue-500);
+
+  /* Global / Border */
+  --color-border-subtle: var(--color-gray-blue-100);
+  --color-border-default: var(--color-gray-blue-200);
+  --color-border-strong: var(--color-gray-blue-300);
+  --color-border-brand: var(--color-blue-500);
+  --color-border-disabled: var(--color-gray-blue-200);
+  --color-border-focus: var(--color-blue-400);
+
+  /* Feedback / Error */
+  --color-feedback-error-bg: var(--color-system-red-100);
+  --color-feedback-error-bg-solid: var(--color-system-red-500);
+  --color-feedback-error-text: var(--color-system-red-500);
+  --color-feedback-error-border: var(--color-system-red-100);
+  --color-feedback-error-icon: var(--color-system-red-500);
+  --color-feedback-error-bg-subtle: var(--color-system-red-50);
+
+  /* Feedback / Warning */
+  --color-feedback-warning-bg: var(--color-system-orange-100);
+  --color-feedback-warning-bg-solid: var(--color-system-orange-500);
+  --color-feedback-warning-text: var(--color-system-orange-500);
+  --color-feedback-warning-border: var(--color-system-orange-100);
+  --color-feedback-warning-icon: var(--color-system-orange-500);
+  --color-feedback-warning-bg-subtle: var(--color-system-orange-50);
+
+  /* Feedback / Success */
+  --color-feedback-success-bg: var(--color-system-green-100);
+  --color-feedback-success-bg-solid: var(--color-system-green-500);
+  --color-feedback-success-text: var(--color-system-green-600);
+  --color-feedback-success-border: var(--color-system-green-100);
+  --color-feedback-success-icon: var(--color-system-green-500);
+  --color-feedback-success-bg-subtle: var(--color-system-green-50);
+
+  /* Feedback / Info */
+  --color-feedback-info-bg: var(--color-blue-100);
+  --color-feedback-info-bg-solid: var(--color-blue-500);
+  --color-feedback-info-text: var(--color-blue-500);
+  --color-feedback-info-border: var(--color-blue-300);
+  --color-feedback-info-icon: var(--color-blue-300);
+
+  /* Action / Primary */
+  --color-action-primary-bg-default: var(--color-blue-500);
+  --color-action-primary-bg-hover: var(--color-blue-400);
+  --color-action-primary-bg-active: var(--color-blue-400);
+  --color-action-primary-bg-disabled: var(--color-gray-blue-50);
+  --color-action-primary-text-default: var(--color-white);
+  --color-action-primary-text-disabled: var(--color-gray-blue-400);
+  --color-action-primary-icon-default: var(--color-white);
+  --color-action-primary-icon-disabled: var(--color-white);
+
+  /* Action / Secondary */
+  --color-action-secondary-bg-default: var(--color-blue-50);
+  --color-action-secondary-bg-hover: var(--color-blue-100);
+  --color-action-secondary-bg-active: var(--color-blue-100);
+  --color-action-secondary-bg-disabled: var(--color-gray-blue-50);
+  --color-action-secondary-text-default: var(--color-blue-600);
+  --color-action-secondary-text-disabled: var(--color-gray-blue-400);
+  --color-action-secondary-icon-default: var(--color-blue-600);
+  --color-action-secondary-icon-disabled: var(--color-blue-600);
+
+  /* Action / Ghost */
+  --color-action-ghost-bg-default: var(--color-white);
+  --color-action-ghost-bg-hover: var(--color-white);
+  --color-action-ghost-bg-active: var(--color-white);
+  --color-action-ghost-border-default: var(--color-blue-200);
+  --color-action-ghost-border-hover: var(--color-blue-400);
+  --color-action-ghost-border-disabled: var(--color-gray-blue-200);
+  --color-action-ghost-text-default: var(--color-gray-text-800);
+  --color-action-ghost-text-hover: var(--color-gray-text-900);
+  --color-action-ghost-text-active: var(--color-gray-text-900);
+  --color-action-ghost-text-disabled: var(--color-gray-text-400);
+  --color-action-ghost-icon-default: var(--color-gray-text-900);
+  --color-action-ghost-icon-hover: var(--color-gray-text-900);
+  --color-action-ghost-icon-disabled: var(--color-gray-text-900);
+
+  /* Action / Neutral */
+  --color-action-neutral-bg-default: var(--color-white);
+  --color-action-neutral-bg-hover: var(--color-white);
+  --color-action-neutral-bg-active: var(--color-white);
+  --color-action-neutral-bg-disabled: var(--color-white);
+  --color-action-neutral-border-default: var(--color-gray-blue-300);
+  --color-action-neutral-border-hover: var(--color-gray-blue-400);
+  --color-action-neutral-border-disabled: var(--color-gray-blue-200);
+  --color-action-neutral-text-default: var(--color-gray-text-800);
+  --color-action-neutral-text-hover: var(--color-gray-text-900);
+  --color-action-neutral-text-disabled: var(--color-gray-text-400);
+  --color-action-neutral-icon-default: var(--color-gray-text-900);
+  --color-action-neutral-icon-disabled: var(--color-gray-text-900);
+  --color-action-neutral-icon-hover: var(--color-gray-text-900);
+
+  /* Action / Danger */
+  --color-action-danger-bg-default: var(--color-system-red-500);
+  --color-action-danger-bg-hover: var(--color-system-red-400);
+  --color-action-danger-bg-active: var(--color-system-red-700);
+  --color-action-danger-bg-disabled: var(--color-gray-blue-50);
+  --color-action-danger-text-default: var(--color-white);
+  --color-action-danger-text-subtle: var(--color-system-red-500);
+  --color-action-danger-text-disabled: var(--color-gray-blue-400);
+  --color-action-danger-border-default: var(--color-system-red-500);
+  --color-action-danger-icon-default: var(--color-system-red-500);
+  --color-action-danger-icon-disabled: var(--color-system-red-500);
+
+  /* Control / Field */
+  --color-control-field-bg-default: var(--color-white);
+  --color-control-field-bg-disabled: var(--color-gray-blue-50);
+  --color-control-field-border-default: var(--color-gray-text-100);
+  --color-control-field-border-hover: var(--color-blue-400);
+  --color-control-field-border-focus: var(--color-blue-400);
+  --color-control-field-border-error: var(--color-system-red-500);
+  --color-control-field-border-disabled: var(--color-gray-text-100);
+  --color-control-field-text-default: var(--color-gray-text-800);
+  --color-control-field-text-placeholder: var(--color-gray-text-400);
+  --color-control-field-text-disabled: var(--color-gray-text-300);
+  --color-control-field-icon-default: var(--color-gray-text-400);
+  --color-control-field-icon-active: var(--color-blue-400);
+  --color-control-field-icon-disabled: var(--color-gray-text-300);
+
+  /* Control / Checkbox */
+  --color-control-checkbox-bg-default: var(--color-white);
+  --color-control-checkbox-border-default: var(--color-blue-100);
+  --color-control-checkbox-bg-checked: var(--color-blue-500);
+  --color-control-checkbox-border-checked: var(--color-blue-500);
+  --color-control-checkbox-icon: var(--color-white);
+
+  /* Selection */
+  --color-selection-bg-default: #000000;
+  --color-selection-bg-hover: var(--color-gray-blue-50);
+  --color-selection-bg-active: var(--color-gray-blue-100);
+  --color-selection-bg-selected: var(--color-blue-50);
+  --color-selection-text-default: var(--color-gray-text-800);
+  --color-selection-text-selected: var(--color-blue-500);
+  --color-selection-border-selected: var(--color-blue-500);
+  --color-selection-icon-selected: var(--color-blue-500);
+
+  /* Label / Gray */
+  --color-label-gray-bg-solid: var(--color-gray-text-400);
+  --color-label-gray-bg: var(--color-gray-text-50);
+  --color-label-gray-border: var(--color-gray-text-100);
+
+  /* Label / Blue */
+  --color-label-blue-bg: var(--color-blue-25);
+  --color-label-blue-border: var(--color-blue-50);
+
+}

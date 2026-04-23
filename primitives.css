@@ -1,0 +1,135 @@
+/* ============================================================
+   PRIMITIVES — Records Marine Design System
+   Auto-generated from Figma Variables (Primitives collection)
+   ============================================================ */
+
+:root {
+
+  /* Neutral */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  /* Blue */
+  --color-blue-25: #F5F9FF;
+  --color-blue-50: #E0EBFF;
+  --color-blue-100: #C7DBFF;
+  --color-blue-200: #8AB3FF;
+  --color-blue-300: #528EFF;
+  --color-blue-400: #1467FF;
+  --color-blue-500: #004BDB;
+  --color-blue-600: #003DAD;
+  --color-blue-700: #002E85;
+  --color-blue-800: #001E57;
+
+  /* Gray Text */
+  --color-gray-text-50: #F2F2F2;
+  --color-gray-text-100: #E3E3E3;
+  --color-gray-text-200: #C7C7C7;
+  --color-gray-text-300: #ABABAB;
+  --color-gray-text-400: #8F8F8F;
+  --color-gray-text-500: #737373;
+  --color-gray-text-600: #5C5C5C;
+  --color-gray-text-700: #454545;
+  --color-gray-text-800: #2E2E2E;
+  --color-gray-text-900: #171717;
+
+  /* Gray Blue System */
+  --color-gray-blue-50: #F7FAFC;
+  --color-gray-blue-100: #EDF2F7;
+  --color-gray-blue-200: #E2E8F0;
+  --color-gray-blue-300: #CBD5E0;
+  --color-gray-blue-400: #A0AEC0;
+  --color-gray-blue-500: #718096;
+  --color-gray-blue-600: #4A5568;
+  --color-gray-blue-700: #2D3748;
+  --color-gray-blue-800: #1A202C;
+  --color-gray-blue-900: #171923;
+
+  /* System / Red */
+  --color-system-red: #E53E3E;
+  --color-system-red-50: #FFF5F5;
+  --color-system-red-100: #FED7D7;
+  --color-system-red-200: #FEB2B2;
+  --color-system-red-300: #FC8181;
+  --color-system-red-400: #F56565;
+  --color-system-red-500: #E53E3E;
+  --color-system-red-600: #C53030;
+  --color-system-red-700: #9B2C2C;
+  --color-system-red-800: #822727;
+  --color-system-red-900: #63171B;
+
+  /* System / Orange */
+  --color-system-orange: #ED8936;
+  --color-system-orange-50: #FFFAF0;
+  --color-system-orange-100: #FEEBCB;
+  --color-system-orange-200: #FBD38D;
+  --color-system-orange-300: #F6AD55;
+  --color-system-orange-500: #EB6006;
+  --color-system-orange-600: #C05621;
+  --color-system-orange-700: #9C4221;
+  --color-system-orange-800: #7B341E;
+  --color-system-orange-900: #652B19;
+
+  /* System / Yellow */
+  --color-system-yellow: #F6E05E;
+  --color-system-yellow-50: #FFFFF0;
+  --color-system-yellow-100: #FEFCBF;
+  --color-system-yellow-200: #FAF089;
+  --color-system-yellow-400: #ECC94B;
+  --color-system-yellow-500: #D69E2E;
+  --color-system-yellow-600: #B7791F;
+  --color-system-yellow-700: #975A16;
+  --color-system-yellow-800: #744210;
+  --color-system-yellow-900: #5F370E;
+
+  /* System / Green */
+  --color-system-green: #48BB78;
+  --color-system-green-50: #F0FFF4;
+  --color-system-green-100: #C6F6D5;
+  --color-system-green-200: #9AE6B4;
+  --color-system-green-300: #68D391;
+  --color-system-green-500: #38A169;
+  --color-system-green-600: #25855A;
+  --color-system-green-700: #276749;
+  --color-system-green-800: #22543D;
+  --color-system-green-900: #1C4532;
+
+  /* System / Other (Purple, Cyan) */
+  --color-system-purple: #AE45FF;
+  --color-system-cyan: #42E8F4;
+
+  /* Shadow */
+  --shadow-color-sm: #00102E;
+  --shadow-color-lg-low: #0B214C;
+  --shadow-color-lg-high: #0B214C;
+  --shadow-color-xl: #00234F;
+
+  /* Specification — category brand colors */
+  --color-spec-oem-supplier: #27AE60;
+  --color-spec-distributor: #E67E22;
+  --color-spec-manufacturer: #9C6D3E;
+  --color-spec-private-manufacturer: #B08F67;
+  --color-spec-licensed-manufacturer: #2E86C1;
+  --color-spec-credit-terms: #4CAF50;
+  --color-spec-guarantee-terms: #5DADE2;
+  --color-spec-used-spare-parts: #6E7E85;
+  --color-spec-oil-bulk: #1F618D;
+  --color-spec-oil-refinery: #3D8FBA;
+  --color-spec-physical-supplies: #7B7D7D;
+  --color-spec-authorized-service: #616A6B;
+  --color-spec-mobile-service: #2E2E2E;
+  --color-spec-reseller: #8E44AD;
+  --color-spec-environmentally: #276749;
+  --color-spec-mineral-oils: #8F8F8F;
+  --color-spec-syntetic-oils: #A64AC9;
+  --color-spec-natural-oils: #2FA866;
+  --color-spec-channel-agent: #003DAD;
+  --color-spec-general-agent: #002E85;
+  --color-spec-husbandry-agent: #5F370E;
+  --color-spec-liner-container-agent: #1A202C;
+  --color-spec-project-cargo-agent: #2D3748;
+  --color-spec-protective-agent: #8F8F8F;
+  --color-spec-ro-ro-agent: #4A5568;
+  --color-spec-ship-repair-agent: #9B2C2C;
+
+}
