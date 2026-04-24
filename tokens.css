@@ -75,63 +75,99 @@
   --color-action-primary-bg-default: var(--color-blue-500);
   --color-action-primary-bg-hover: var(--color-blue-400);
   --color-action-primary-bg-active: var(--color-blue-400);
+  --color-action-primary-bg-pressed: var(--color-blue-600);
   --color-action-primary-bg-disabled: var(--color-gray-blue-50);
   --color-action-primary-text-default: var(--color-white);
+  --color-action-primary-text-pressed: var(--color-white);
   --color-action-primary-text-disabled: var(--color-gray-blue-400);
   --color-action-primary-icon-default: var(--color-white);
+  --color-action-primary-icon-pressed: var(--color-white);
   --color-action-primary-icon-disabled: var(--color-gray-blue-400);
 
   /* Action / Secondary */
   --color-action-secondary-bg-default: var(--color-blue-50);
   --color-action-secondary-bg-hover: var(--color-blue-100);
   --color-action-secondary-bg-active: var(--color-blue-100);
+  --color-action-secondary-bg-pressed: var(--color-blue-200);
   --color-action-secondary-bg-disabled: var(--color-gray-blue-50);
   --color-action-secondary-text-default: var(--color-blue-600);
+  --color-action-secondary-text-pressed: var(--color-blue-700);
   --color-action-secondary-text-disabled: var(--color-gray-blue-400);
   --color-action-secondary-icon-default: var(--color-blue-600);
+  --color-action-secondary-icon-pressed: var(--color-blue-700);
   --color-action-secondary-icon-disabled: var(--color-gray-blue-400);
 
   /* Action / Ghost */
   --color-action-ghost-bg-default: var(--color-white);
   --color-action-ghost-bg-hover: var(--color-white);
   --color-action-ghost-bg-active: var(--color-white);
+  --color-action-ghost-bg-pressed: var(--color-gray-blue-50);
   --color-action-ghost-border-default: var(--color-blue-200);
   --color-action-ghost-border-hover: var(--color-blue-400);
+  --color-action-ghost-border-pressed: var(--color-blue-500);
   --color-action-ghost-border-disabled: var(--color-gray-blue-200);
   --color-action-ghost-text-default: var(--color-gray-text-800);
   --color-action-ghost-text-hover: var(--color-gray-text-900);
   --color-action-ghost-text-active: var(--color-gray-text-900);
+  --color-action-ghost-text-pressed: var(--color-gray-text-900);
   --color-action-ghost-text-disabled: var(--color-gray-blue-400);
   --color-action-ghost-icon-default: var(--color-gray-text-900);
   --color-action-ghost-icon-hover: var(--color-gray-text-900);
+  --color-action-ghost-icon-pressed: var(--color-gray-text-900);
   --color-action-ghost-icon-disabled: var(--color-gray-blue-400);
 
   /* Action / Neutral */
   --color-action-neutral-bg-default: var(--color-white);
   --color-action-neutral-bg-hover: var(--color-white);
   --color-action-neutral-bg-active: var(--color-white);
+  --color-action-neutral-bg-pressed: var(--color-gray-blue-50);
   --color-action-neutral-bg-disabled: var(--color-white);
   --color-action-neutral-border-default: var(--color-gray-blue-300);
   --color-action-neutral-border-hover: var(--color-gray-blue-400);
+  --color-action-neutral-border-pressed: var(--color-gray-blue-500);
   --color-action-neutral-border-disabled: var(--color-gray-blue-200);
   --color-action-neutral-text-default: var(--color-gray-text-800);
   --color-action-neutral-text-hover: var(--color-gray-text-900);
+  --color-action-neutral-text-pressed: var(--color-gray-text-900);
   --color-action-neutral-text-disabled: var(--color-gray-text-400);
   --color-action-neutral-icon-default: var(--color-gray-text-900);
   --color-action-neutral-icon-disabled: var(--color-gray-blue-400);
   --color-action-neutral-icon-hover: var(--color-gray-text-900);
+  --color-action-neutral-icon-pressed: var(--color-gray-text-900);
 
   /* Action / Danger */
   --color-action-danger-bg-default: var(--color-system-red-500);
   --color-action-danger-bg-hover: var(--color-system-red-400);
   --color-action-danger-bg-active: var(--color-system-red-700);
+  --color-action-danger-bg-pressed: var(--color-system-red-600);
   --color-action-danger-bg-disabled: var(--color-gray-blue-50);
   --color-action-danger-text-default: var(--color-white);
   --color-action-danger-text-subtle: var(--color-system-red-500);
+  --color-action-danger-text-pressed: var(--color-white);
   --color-action-danger-text-disabled: var(--color-gray-blue-400);
   --color-action-danger-border-default: var(--color-system-red-500);
+  --color-action-danger-border-pressed: var(--color-system-red-600);
   --color-action-danger-icon-default: var(--color-white);
+  --color-action-danger-icon-pressed: var(--color-white);
   --color-action-danger-icon-disabled: var(--color-gray-blue-400);
+
+  /* Action / Danger Outline */
+  --color-action-danger-outline-bg-default: var(--color-white);
+  --color-action-danger-outline-bg-hover: var(--color-system-red-50);
+  --color-action-danger-outline-bg-pressed: var(--color-system-red-50);
+  --color-action-danger-outline-bg-disabled: var(--color-gray-blue-50);
+  --color-action-danger-outline-border-default: var(--color-system-red-500);
+  --color-action-danger-outline-border-hover: var(--color-system-red-600);
+  --color-action-danger-outline-border-pressed: var(--color-system-red-700);
+  --color-action-danger-outline-border-disabled: var(--color-gray-blue-200);
+  --color-action-danger-outline-text-default: var(--color-system-red-500);
+  --color-action-danger-outline-text-hover: var(--color-system-red-600);
+  --color-action-danger-outline-text-pressed: var(--color-system-red-700);
+  --color-action-danger-outline-text-disabled: var(--color-gray-blue-400);
+  --color-action-danger-outline-icon-default: var(--color-system-red-500);
+  --color-action-danger-outline-icon-hover: var(--color-system-red-600);
+  --color-action-danger-outline-icon-pressed: var(--color-system-red-700);
+  --color-action-danger-outline-icon-disabled: var(--color-gray-blue-400);
 
   /* Control / Field */
   --color-control-field-bg-default: var(--color-white);
