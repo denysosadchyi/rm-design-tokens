@@ -174,4 +174,15 @@
   --color-label-blue-bg: var(--color-blue-25);
   --color-label-blue-border: var(--color-blue-50);
 
+  /* Spacing — semantic scale (up to 64px) */
+  --spacing-3xs: var(--space-0-5);  /* 2px  — hairline offset */
+  --spacing-2xs: var(--space-1);    /* 4px  — icon ↔ text inline */
+  --spacing-xs:  var(--space-2);    /* 8px  — button inner gap */
+  --spacing-sm:  var(--space-3);    /* 12px — input padding Y */
+  --spacing-md:  var(--space-4);    /* 16px — card padding, form row gap */
+  --spacing-lg:  var(--space-6);    /* 24px — group gap in section */
+  --spacing-xl:  var(--space-8);    /* 32px — block gap */
+  --spacing-2xl: var(--space-12);   /* 48px — page section */
+  --spacing-3xl: var(--space-16);   /* 64px — hero / page top padding */
+
 }
