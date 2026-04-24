@@ -79,7 +79,7 @@
   --color-action-primary-text-default: var(--color-white);
   --color-action-primary-text-disabled: var(--color-gray-blue-400);
   --color-action-primary-icon-default: var(--color-white);
-  --color-action-primary-icon-disabled: var(--color-white);
+  --color-action-primary-icon-disabled: var(--color-gray-blue-400);
 
   /* Action / Secondary */
   --color-action-secondary-bg-default: var(--color-blue-50);
@@ -89,7 +89,7 @@
   --color-action-secondary-text-default: var(--color-blue-600);
   --color-action-secondary-text-disabled: var(--color-gray-blue-400);
   --color-action-secondary-icon-default: var(--color-blue-600);
-  --color-action-secondary-icon-disabled: var(--color-blue-600);
+  --color-action-secondary-icon-disabled: var(--color-gray-blue-400);
 
   /* Action / Ghost */
   --color-action-ghost-bg-default: var(--color-white);
@@ -101,10 +101,10 @@
   --color-action-ghost-text-default: var(--color-gray-text-800);
   --color-action-ghost-text-hover: var(--color-gray-text-900);
   --color-action-ghost-text-active: var(--color-gray-text-900);
-  --color-action-ghost-text-disabled: var(--color-gray-text-400);
+  --color-action-ghost-text-disabled: var(--color-gray-blue-400);
   --color-action-ghost-icon-default: var(--color-gray-text-900);
   --color-action-ghost-icon-hover: var(--color-gray-text-900);
-  --color-action-ghost-icon-disabled: var(--color-gray-text-900);
+  --color-action-ghost-icon-disabled: var(--color-gray-blue-400);
 
   /* Action / Neutral */
   --color-action-neutral-bg-default: var(--color-white);
@@ -118,7 +118,7 @@
   --color-action-neutral-text-hover: var(--color-gray-text-900);
   --color-action-neutral-text-disabled: var(--color-gray-text-400);
   --color-action-neutral-icon-default: var(--color-gray-text-900);
-  --color-action-neutral-icon-disabled: var(--color-gray-text-900);
+  --color-action-neutral-icon-disabled: var(--color-gray-blue-400);
   --color-action-neutral-icon-hover: var(--color-gray-text-900);
 
   /* Action / Danger */
@@ -130,8 +130,8 @@
   --color-action-danger-text-subtle: var(--color-system-red-500);
   --color-action-danger-text-disabled: var(--color-gray-blue-400);
   --color-action-danger-border-default: var(--color-system-red-500);
-  --color-action-danger-icon-default: var(--color-system-red-500);
-  --color-action-danger-icon-disabled: var(--color-system-red-500);
+  --color-action-danger-icon-default: var(--color-white);
+  --color-action-danger-icon-disabled: var(--color-gray-blue-400);
 
   /* Control / Field */
   --color-control-field-bg-default: var(--color-white);
@@ -156,7 +156,7 @@
   --color-control-checkbox-icon: var(--color-white);
 
   /* Selection */
-  --color-selection-bg-default: #000000;
+  --color-selection-bg-default: transparent;
   --color-selection-bg-hover: var(--color-gray-blue-50);
   --color-selection-bg-active: var(--color-gray-blue-100);
   --color-selection-bg-selected: var(--color-blue-50);

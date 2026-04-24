@@ -98,11 +98,11 @@
   --color-system-purple: #AE45FF;
   --color-system-cyan: #42E8F4;
 
-  /* Shadow */
-  --shadow-color-sm: #00102E;
-  --shadow-color-lg-low: #0B214C;
-  --shadow-color-lg-high: #0B214C;
-  --shadow-color-xl: #00234F;
+  /* Shadow — alpha encoded in 8-digit hex (mirrors Figma) */
+  --shadow-color-sm: #00102E0A;      /* 4%  */
+  --shadow-color-lg-low: #0B214C08;  /* 3%  */
+  --shadow-color-lg-high: #0B214C14; /* 8%  */
+  --shadow-color-xl: #00234F29;      /* 16% */
 
   /* Spacing — base 4px scale (from Chakra UI) */
   --space-0-5: 0.125rem;  /* 2px */
