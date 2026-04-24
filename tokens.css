@@ -74,7 +74,6 @@
   /* Action / Primary */
   --color-action-primary-bg-default: var(--color-blue-500);
   --color-action-primary-bg-hover: var(--color-blue-400);
-  --color-action-primary-bg-active: var(--color-blue-400);
   --color-action-primary-bg-pressed: var(--color-blue-600);
   --color-action-primary-bg-disabled: var(--color-gray-blue-50);
   --color-action-primary-text-default: var(--color-white);
@@ -87,7 +86,6 @@
   /* Action / Secondary */
   --color-action-secondary-bg-default: var(--color-blue-50);
   --color-action-secondary-bg-hover: var(--color-blue-100);
-  --color-action-secondary-bg-active: var(--color-blue-100);
   --color-action-secondary-bg-pressed: var(--color-blue-200);
   --color-action-secondary-bg-disabled: var(--color-gray-blue-50);
   --color-action-secondary-text-default: var(--color-blue-600);
@@ -100,7 +98,6 @@
   /* Action / Ghost */
   --color-action-ghost-bg-default: var(--color-white);
   --color-action-ghost-bg-hover: var(--color-white);
-  --color-action-ghost-bg-active: var(--color-white);
   --color-action-ghost-bg-pressed: var(--color-gray-blue-50);
   --color-action-ghost-border-default: var(--color-blue-200);
   --color-action-ghost-border-hover: var(--color-blue-400);
@@ -108,7 +105,6 @@
   --color-action-ghost-border-disabled: var(--color-gray-blue-200);
   --color-action-ghost-text-default: var(--color-gray-text-800);
   --color-action-ghost-text-hover: var(--color-gray-text-900);
-  --color-action-ghost-text-active: var(--color-gray-text-900);
   --color-action-ghost-text-pressed: var(--color-gray-text-900);
   --color-action-ghost-text-disabled: var(--color-gray-blue-400);
   --color-action-ghost-icon-default: var(--color-gray-text-900);
@@ -119,7 +115,6 @@
   /* Action / Neutral */
   --color-action-neutral-bg-default: var(--color-white);
   --color-action-neutral-bg-hover: var(--color-white);
-  --color-action-neutral-bg-active: var(--color-white);
   --color-action-neutral-bg-pressed: var(--color-gray-blue-50);
   --color-action-neutral-bg-disabled: var(--color-white);
   --color-action-neutral-border-default: var(--color-gray-blue-300);
@@ -138,7 +133,6 @@
   /* Action / Danger */
   --color-action-danger-bg-default: var(--color-system-red-500);
   --color-action-danger-bg-hover: var(--color-system-red-400);
-  --color-action-danger-bg-active: var(--color-system-red-700);
   --color-action-danger-bg-pressed: var(--color-system-red-600);
   --color-action-danger-bg-disabled: var(--color-gray-blue-50);
   --color-action-danger-text-default: var(--color-white);
