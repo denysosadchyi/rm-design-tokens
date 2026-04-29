@@ -89,9 +89,11 @@
   --color-action-secondary-bg-pressed: var(--color-blue-200);
   --color-action-secondary-bg-disabled: var(--color-gray-blue-50);
   --color-action-secondary-text-default: var(--color-blue-600);
+  --color-action-secondary-text-hover: var(--color-blue-700);
   --color-action-secondary-text-pressed: var(--color-blue-700);
   --color-action-secondary-text-disabled: var(--color-gray-blue-400);
   --color-action-secondary-icon-default: var(--color-blue-600);
+  --color-action-secondary-icon-hover: var(--color-blue-700);
   --color-action-secondary-icon-pressed: var(--color-blue-700);
   --color-action-secondary-icon-disabled: var(--color-gray-blue-400);
 
