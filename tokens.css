@@ -124,12 +124,12 @@
   --color-action-neutral-border-pressed: var(--color-gray-blue-500);
   --color-action-neutral-border-disabled: var(--color-gray-blue-200);
   --color-action-neutral-text-default: var(--color-gray-text-800);
-  --color-action-neutral-text-hover: var(--color-blue-700);
+  --color-action-neutral-text-hover: var(--color-gray-text-600);
   --color-action-neutral-text-pressed: var(--color-black);
   --color-action-neutral-text-disabled: var(--color-gray-text-400);
   --color-action-neutral-icon-default: var(--color-gray-text-900);
   --color-action-neutral-icon-disabled: var(--color-gray-blue-400);
-  --color-action-neutral-icon-hover: var(--color-blue-700);
+  --color-action-neutral-icon-hover: var(--color-gray-text-600);
   --color-action-neutral-icon-pressed: var(--color-black);
 
   /* Action / Danger */
